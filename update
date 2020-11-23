@@ -1,0 +1,2 @@
+!#/bin/bash
+rm -rf signalR/* && cp ../FiinBox.Exchange.SignalRClient/bin/Debug/netcoreapp3.1/* signalR && rm signalR/*txt* && rm -rf signalR.zip && zip signalR.zip signalR -r
